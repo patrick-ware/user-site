@@ -1,5 +1,9 @@
 body {
-  font-family: 'Raleway', sans-serif; !important
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand {
+  display: none;
 }
 
 .page-home-title {
@@ -14,4 +18,13 @@ body {
   text-align: center;
 	font-size: 16pt;
   color: white;
+}
+
+/* Styling for smartphones and tablets */
+@media only screen and (max-width: 991px) {
+  .navbar-brand {
+    display: flex;
+  }
+
+
 }
