@@ -116,14 +116,6 @@ hr.divider {
   background: #FFFFFF;
 }
 
-.Page-Title {
-  margin: 0% 0% 3% 0%;
-	font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-	font-size: 30pt;
-  color: var(--Heading-Text);
-}
-
 .Page-About-Container {
   display: flex;
   flex-direction: column;
@@ -154,7 +146,7 @@ hr.divider {
 	border-radius:50%;
   border: 5px solid var(--Highlight);
 	width: 200px;
-  margin: 2% auto 4% auto;
+  margin: 0% auto 4% auto;
 }
 
 .Links {
@@ -188,11 +180,9 @@ hr.divider {
   color: white;
 }
 
-a:hover {
-  color: white;
+a #arrow:hover {
+  color: var(--Highlight);
 }
-
-
 
 /* Styling for smartphones and tablets */
 @media only screen and (max-width: 950px) {
@@ -232,5 +222,9 @@ a:hover {
   }
   .Page-About-Title-Bar { 
     justify-content: center;
+  }
+
+  .page-section {
+    padding: 1rem 0;
   }
 }
