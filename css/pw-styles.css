@@ -1,9 +1,34 @@
+:root {
+  scroll-behavior: smooth;
+  --Background-A: #F5F5F5;
+  --Background-B: #FFFFFF;
+  --Background-C: #262934;
+  --Contact-Box: #20242C;
+  --NavBar: #1E242F;
+  --Heading-Text: #46474A;
+  --Body-Text: #626262;
+  --Highlight: #61FAAE;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-family: 'Raleway', sans-serif;
+}
+
+#mainNav.navbar-scrolled {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: var(--NavBar);
+  }
+
 .navbar-brand {
   display: none;
+}
+
+header.masthead {
+  height: 100vh;
 }
 
 .page-home-title {
