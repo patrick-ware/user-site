@@ -114,7 +114,6 @@ hr.divider {
   flex-direction: column;
   align-items: center;
   background: #FFFFFF;
-  height: 60vh;
 }
 
 .Page-Title {
@@ -130,7 +129,6 @@ hr.divider {
   flex-direction: column;
   justify-content: flex-start;
   background-color: var(--Background-B);
-  padding: 50px;
   width: 60%;
 }
 
@@ -191,7 +189,7 @@ hr.divider {
 }
 
 a:hover {
-  color: var(--Highlight);
+  color: white;
 }
 
 
