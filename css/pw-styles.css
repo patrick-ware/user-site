@@ -228,3 +228,11 @@ a #arrow:hover {
     padding: 1rem 0;
   }
 }
+
+#contact {
+  background-color: #20242C;
+}
+
+.mt-0 {
+  color: white;
+}
