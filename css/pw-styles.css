@@ -250,3 +250,11 @@ a #arrow:hover {
   display: flex;
   align-items: space-between;
 }
+
+.img-fluid {
+  transition: 0.3s;
+}
+
+.img-fluid:hover{
+  opacity: 0.6;
+}
