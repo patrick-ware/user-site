@@ -32,6 +32,7 @@ body {
 	font-family: 'Raleway', sans-serif;
   color: rgba(255, 255, 255, 0.7);
   padding: 0 1rem;
+  transition: 0.3s;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: var(--Highlight);
@@ -235,4 +236,8 @@ a #arrow:hover {
 
 .mt-0 {
   color: white;
+}
+
+.img-fluid {
+  padding: 20px;
 }
