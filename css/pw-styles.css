@@ -241,3 +241,7 @@ a #arrow:hover {
 .img-fluid {
   padding: 20px;
 }
+
+.portfolio-box-caption {
+  text-align: center;
+}
