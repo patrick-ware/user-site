@@ -245,3 +245,8 @@ a #arrow:hover {
 .portfolio-box-caption {
   text-align: center;
 }
+
+.bottom-icons {
+  display: flex;
+  align-items: space-between;
+}
