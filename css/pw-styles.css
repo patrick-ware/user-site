@@ -267,3 +267,11 @@ a #arrow:hover {
   cursor: pointer;
   color: var(--Body-Text);
 }
+
+#projects-title {
+  color: var(--Heading-Text)
+}
+
+.footer {
+  background-color: var(--Contact-Box)
+}
