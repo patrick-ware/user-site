@@ -252,9 +252,18 @@ a #arrow:hover {
 }
 
 .img-fluid {
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
-.img-fluid:hover{
+.img-fluid:hover {
   opacity: 0.6;
+}
+
+.portfolio-box:hover {
+  text-decoration: none;
+}
+
+.portfolio-box-caption {
+  cursor: pointer;
+  color: var(--Body-Text);
 }
