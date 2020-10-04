@@ -176,6 +176,10 @@ hr.divider {
   transition: 0.3s;
 }
 
+.Icon-Container:hover {
+  color: var(--Highlight);
+}
+
 .Icon {
   font-size: 16pt;
   color: white;
