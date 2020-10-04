@@ -291,6 +291,7 @@ hr.divider {
 }
 
 .portfolio-icon {
+  padding: 5px;
 }
 
 .portfolio-icon:hover {
