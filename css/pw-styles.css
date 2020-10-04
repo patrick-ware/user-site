@@ -251,7 +251,10 @@ a #arrow:hover {
 }
 
 .bottom-icon {
-  padding: 0px 5px 0px 5px;
+}
+
+.bottom-icon:hover {
+  color: var(--Contact-Box);
 }
 
 .img-fluid {
