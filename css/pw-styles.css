@@ -250,9 +250,8 @@ a #arrow:hover {
   text-align: center;
 }
 
-.bottom-icons {
-  display: flex;
-  align-items: space-between;
+.bottom-icon {
+  padding: 0px 5px 0px 5px;
 }
 
 .img-fluid {
@@ -274,4 +273,8 @@ a #arrow:hover {
 
 #projects-title {
   color: var(--Heading-Text)
+}
+
+i {
+  padding:5px;
 }
