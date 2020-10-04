@@ -14,6 +14,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  color: var(--NavBar);
+}
+
 /*navbar styling */
 #mainNav {
 	font-family: 'Raleway', sans-serif;
@@ -177,7 +181,7 @@ hr.divider {
 }
 
 .Icon-Container:hover {
-  color: var(--Highlight);
+  color: white;
 }
 
 .Icon {
@@ -284,6 +288,13 @@ hr.divider {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.portfolio-icon {
+}
+
+.portfolio-icon:hover {
+  color: var(--NavBar);
 }
 
 .portfolio-box:hover {
