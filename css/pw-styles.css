@@ -185,7 +185,12 @@ hr.divider {
   color: white;
 }
 
-a #arrow:hover {
+#arrow {
+  color: white;
+  transition: 0.5s;
+}
+
+#arrow:hover {
   color: var(--Highlight);
 }
 
