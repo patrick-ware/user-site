@@ -286,8 +286,18 @@ hr.divider {
   position: absolute;
   top:0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.portfolio-title {
+  justify-content: center;
+  display: block;
+}
+
+.portfolio-icon-container {
+  flex-direction: row;
 }
 
 .portfolio-icon {
