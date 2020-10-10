@@ -123,10 +123,15 @@ hr.divider {
 
 .Page-About-Container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   background-color: var(--Background-B);
   width: 60%;
+}
+
+.page-about-container-2 {
+  display: flex;
+  flex-direction: column;
 }
 
 .Page-About-Title-Bar {
