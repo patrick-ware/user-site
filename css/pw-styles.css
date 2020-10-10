@@ -305,7 +305,7 @@ hr.divider {
 }
 
 .portfolio-icon:hover {
-  color: var(--NavBar);
+  text-decoration: none;
 }
 
 .portfolio-box:hover {
