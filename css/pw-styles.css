@@ -112,35 +112,29 @@ hr.divider {
 
 }
 
-/* about me styling */
-.Page-About {
-  z-index: 1;
+/* about me styling */a
+.page-about {
   display: flex;
-  flex-direction: column;
   align-items: center;
   background: #FFFFFF;
 }
 
-.Page-About-Container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: var(--Background-B);
-  width: 60%;
-}
+/*.Page-About-Container {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  justify-content: flex-start;*/
+/*  background-color: var(--Background-B);*/
+/*  width: 60%;*/
+/*}*/
 
-.page-about-container-2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.Page-About-Title-Bar {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
+/*.page-about-container-2 {*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  width: 50%;*/
+/*}*/
 
 .Page-About-Greeting {
+  margin-bottom: 15px;
   display: inline;
 	font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -154,7 +148,7 @@ hr.divider {
 
 .Headshot {
 	border-radius:50%;
-  border: 5px solid var(--Highlight);
+  border: 3px solid var(--Highlight);
 	width: 200px;
   margin: 0% auto 4% auto;
 }
