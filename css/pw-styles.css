@@ -64,6 +64,7 @@ a {
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
   color: var(--Highlight);
 }
+
 .navbar-brand {
   display: none;
 }
