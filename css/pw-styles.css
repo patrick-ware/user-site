@@ -147,6 +147,10 @@ hr.divider {
   color: var(--Backround-B);
 }
 
+.about-desc {
+  padding: 15px;
+}
+
 .Headshot {
 	border-radius:50%;
   border: 3px solid var(--Highlight);
