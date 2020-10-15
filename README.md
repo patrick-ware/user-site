@@ -1,3 +1,2 @@
 # user-site
-
-https://patrick-ware.github.io/user-site/
+My user site. Check it out at https://patrick-ware.com
