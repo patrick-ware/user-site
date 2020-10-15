@@ -134,7 +134,7 @@ hr.divider {
 /*  width: 50%;*/
 /*}*/
 
-.Page-About-Greeting {
+.greeting {
   margin-bottom: 15px;
   display: inline;
 	font-family: 'Raleway', sans-serif;
@@ -148,7 +148,7 @@ hr.divider {
 }
 
 .about-desc {
-  padding: 15px;
+  padding: 20px;
 }
 
 .headshot {
@@ -233,7 +233,7 @@ hr.divider {
     display: flex;
   }
 
-  .Page-About-Greeting {
+  .greeting {
 	  font-size: 20pt;
     text-align: center;
   }
