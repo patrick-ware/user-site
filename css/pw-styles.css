@@ -143,6 +143,17 @@ hr.divider {
   color: var(--Heading-Text); 
 }
 
+.greeting-mobile {
+  display: none;
+}
+
+.greeting-mobile-text {
+	font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+	font-size: 24pt;
+  color: var(--Heading-Text); 
+}
+
 .text-white-50 {
   color: var(--Backround-B);
 }
@@ -234,8 +245,11 @@ hr.divider {
   }
 
   .greeting {
-	  font-size: 20pt;
-    text-align: center;
+    display: none;
+  }
+
+  .greeting-mobile {
+    display: flex;
   }
 
   .Page-About-Bio {
