@@ -326,8 +326,15 @@ hr.divider {
 }
 
 .portfolio-title {
+  font-size: 14pt;
   justify-content: center;
   display: block;
+}
+
+.portfolio-desc {
+  width: 70%;
+  font-style: oblique;
+  font-size: 11pt;
 }
 
 .portfolio-icon-container {
