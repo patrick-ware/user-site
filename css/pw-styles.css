@@ -315,10 +315,13 @@ hr.divider {
   transition: 0.5s;
   background-color: white;
   opacity: 0;
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top:0;
+  bottom:0;
+  left:0;
+  right:0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -334,7 +337,7 @@ hr.divider {
 .portfolio-desc {
   width: 70%;
   font-style: oblique;
-  font-size: 11pt;
+  font-size: 1em;
 }
 
 .portfolio-icon-container {
@@ -342,7 +345,7 @@ hr.divider {
 }
 
 .portfolio-icon {
-  padding: 5px;
+  padding: 0px 5px 0px 5px;
 }
 
 .portfolio-icon:hover {
