@@ -352,9 +352,9 @@ hr.divider {
   text-decoration: none;
 }
 
-/*.portfolio-box:hover {*/
-/*  text-decoration: none;*/
-/*}*/
+.portfolio-box:hover {
+  text-decoration: none;
+}
 
 .portfolio-box-caption {
   cursor: pointer;
