@@ -345,16 +345,16 @@ hr.divider {
 }
 
 .portfolio-icon {
-  padding: 0px 5px 0px 5px;
+  padding: 5px;
 }
 
 .portfolio-icon:hover {
   text-decoration: none;
 }
 
-.portfolio-box:hover {
-  text-decoration: none;
-}
+/*.portfolio-box:hover {*/
+/*  text-decoration: none;*/
+/*}*/
 
 .portfolio-box-caption {
   cursor: pointer;
