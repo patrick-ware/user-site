@@ -307,26 +307,52 @@ hr.divider {
   color: var(--Contact-Box);
 }
 
-.portfolio-info:hover {
-  opacity: 0.9;
-}
-
-.portfolio-info {
-  transition: 0.5s;
-  background-color: white;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
 }
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
+	font-family: 'Raleway', sans-serif;
+  color: var(--Heading-Text);
+  font-size: 1.25em;
+  text-transform: none;
+}
+
+/*.portfolio-info:hover {*/
+/*  opacity: 0.9;*/
+/*}*/
+
+/*.portfolio-info {*/
+/*  transition: 0.5s;*/
+/*  background-color: white;*/
+/*  opacity: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  position: absolute;*/
+/*  top:0;*/
+/*  bottom:0;*/
+/*  left:0;*/
+/*  right:0;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
 
 .portfolio-title {
   font-size: 14pt;
